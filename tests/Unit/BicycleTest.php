@@ -17,7 +17,7 @@ class BicycleTest extends TestCase
     public function bicycle_table_has_expected_columns()
     {
         $this->assertTrue(
-            Schema::hasColumns('bicycles', ['title', 'quantity', 'is_active', 'created_at', 'updated_at']));
+            Schema::hasColumns('bicycles', ['title', 'inventory', 'is_active', 'created_at', 'updated_at']));
     }
 
     /**
