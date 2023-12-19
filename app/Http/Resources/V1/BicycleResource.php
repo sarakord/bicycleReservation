@@ -16,9 +16,10 @@ class BicycleResource extends JsonResource
     public function toArray($request): array
     {
         return [
-           'title' => $this->title,
-           'inventory' => $this->inventory,
-           'is_active' => $this->is_active ? 'Active':'Inactive',
+            'id' => $this->id,
+            'title' => $this->title,
+            'inventory' => $this->inventory,
+            'is_active' => $this->is_active ? 'Active' : 'Inactive',
             'active_inventory' => $this->active_inventory,
         ];
     }

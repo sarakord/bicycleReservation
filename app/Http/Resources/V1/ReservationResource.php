@@ -19,6 +19,7 @@ class ReservationResource extends JsonResource
         return [
             'status' => $request['status'] ?? true,
             'data' => [
+                'id' => $this->id,
                 "bicycle" => $this->bicycle?->title,
                 "quantity" => $this->quantity,
                 "start" => $this->start,

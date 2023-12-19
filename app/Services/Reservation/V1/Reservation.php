@@ -7,6 +7,7 @@ use App\Models\Bicycle;
 use App\Services\Reservation\V1\Contract\ActiveInterface;
 use App\Services\Reservation\V1\Contract\hasInventoryInterface;
 use App\Services\Reservation\V1\Contract\ReservationInterface;
+use Illuminate\Database\Eloquent\Model;
 
 class Reservation implements ReservationInterface, ActiveInterface, hasInventoryInterface
 {
@@ -15,13 +16,23 @@ class Reservation implements ReservationInterface, ActiveInterface, hasInventory
     protected $startDate;
     protected $endDate;
 
+    /**
+     * @param Bicycle $bicycle
+     * @param int $count
+     */
     public function __construct(Bicycle $bicycle, int $count)
     {
         $this->bicycle = $bicycle;
         $this->count = $count;
     }
 
-    public function hasInventoryInDate(string $startDate, string $endDate)
+    /**
+     * @param string $startDate
+     * @param string $endDate
+     * @return $this
+     * @throws \Exception
+     */
+    public function hasInventoryInDate(string $startDate, string $endDate): static
     {
         $totalReserved = (int)$this->bicycle->reservations()
             ->whereNot('status', ReservationStatusEnum::CANCEL->value)
@@ -37,10 +48,14 @@ class Reservation implements ReservationInterface, ActiveInterface, hasInventory
             $this->endDate = $endDate;
             return $this;
         }
+
         return throw new \Exception("Doesn't have inventory", 404);
     }
 
-    public function reservation()
+    /**
+     * @return Model
+     */
+    public function reservation(): Model
     {
         return $this->bicycle->reservations()->create([
             'user_id' => auth()->user()->id,
@@ -51,7 +66,11 @@ class Reservation implements ReservationInterface, ActiveInterface, hasInventory
         ]);
     }
 
-    public function active()
+    /**
+     * @return $this|Reservation|null
+     * @throws \Exception
+     */
+    public function active(): null|static
     {
         return $this->bicycle->is_active ? $this : throw new \Exception('bicycle inactive', 404);
     }

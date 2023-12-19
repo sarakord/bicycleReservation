@@ -2,6 +2,7 @@
 
 namespace App\Http\Requests\V1;
 
+use App\Rules\EmailValidation;
 use Illuminate\Foundation\Http\FormRequest;
 
 class LoginRequest extends FormRequest
@@ -22,7 +23,7 @@ class LoginRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'email' => 'required|email|max:64',
+            'email' => ['required','email','max:64', new EmailValidation()],
             'password' => 'required|min:8|max:16',
         ];
     }
