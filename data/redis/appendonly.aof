@@ -1,0 +1,647 @@
+*2
+$6
+SELECT
+$1
+0
+*3
+$3
+SET
+$20
+bicycle_bicycle_list
+$4419
+<nav role="navigation" aria-label="Pagination Navigation" class="flex items-center justify-between">
+        <div class="flex justify-between flex-1 sm:hidden">
+                            <span class="relative inline-flex items-center px-4 py-2 text-sm font-medium text-gray-500 bg-white border border-gray-300 cursor-default leading-5 rounded-md">
+                    &laquo; Previous
+                </span>
+            
+                            <a href="http://localhost:8080/api/v1/bicycles?page=2" class="relative inline-flex items-center px-4 py-2 ml-3 text-sm font-medium text-gray-700 bg-white border border-gray-300 leading-5 rounded-md hover:text-gray-500 focus:outline-none focus:ring ring-gray-300 focus:border-blue-300 active:bg-gray-100 active:text-gray-700 transition ease-in-out duration-150">
+                    Next &raquo;
+                </a>
+                    </div>
+
+        <div class="hidden sm:flex-1 sm:flex sm:items-center sm:justify-between">
+            <div>
+                <p class="text-sm text-gray-700 leading-5">
+                    Showing
+                                            <span class="font-medium">1</span>
+                        to
+                        <span class="font-medium">10</span>
+                                        of
+                    <span class="font-medium">11</span>
+                    results
+                </p>
+            </div>
+
+            <div>
+                <span class="relative z-0 inline-flex shadow-sm rounded-md">
+                    
+                                            <span aria-disabled="true" aria-label="&amp;laquo; Previous">
+                            <span class="relative inline-flex items-center px-2 py-2 text-sm font-medium text-gray-500 bg-white border border-gray-300 cursor-default rounded-l-md leading-5" aria-hidden="true">
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd" />
+                                </svg>
+                            </span>
+                        </span>
+                    
+                    
+                                            
+                        
+                        
+                                                                                                                        <span aria-current="page">
+                                        <span class="relative inline-flex items-center px-4 py-2 -ml-px text-sm font-medium text-gray-500 bg-white border border-gray-300 cursor-default leading-5">1</span>
+                                    </span>
+                                                                                                                                <a href="http://localhost:8080/api/v1/bicycles?page=2" class="relative inline-flex items-center px-4 py-2 -ml-px text-sm font-medium text-gray-700 bg-white border border-gray-300 leading-5 hover:text-gray-500 focus:z-10 focus:outline-none focus:ring ring-gray-300 focus:border-blue-300 active:bg-gray-100 active:text-gray-700 transition ease-in-out duration-150" aria-label="Go to page 2">
+                                        2
+                                    </a>
+                                                                                                        
+                    
+                                            <a href="http://localhost:8080/api/v1/bicycles?page=2" rel="next" class="relative inline-flex items-center px-2 py-2 -ml-px text-sm font-medium text-gray-500 bg-white border border-gray-300 rounded-r-md leading-5 hover:text-gray-400 focus:z-10 focus:outline-none focus:ring ring-gray-300 focus:border-blue-300 active:bg-gray-100 active:text-gray-500 transition ease-in-out duration-150" aria-label="Next &amp;raquo;">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                                    </span>
+            </div>
+        </div>
+    </nav>
+
+*3
+$3
+SET
+$20
+bicycle_bicycle_list
+$4419
+<nav role="navigation" aria-label="Pagination Navigation" class="flex items-center justify-between">
+        <div class="flex justify-between flex-1 sm:hidden">
+                            <span class="relative inline-flex items-center px-4 py-2 text-sm font-medium text-gray-500 bg-white border border-gray-300 cursor-default leading-5 rounded-md">
+                    &laquo; Previous
+                </span>
+            
+                            <a href="http://localhost:8080/api/v1/bicycles?page=2" class="relative inline-flex items-center px-4 py-2 ml-3 text-sm font-medium text-gray-700 bg-white border border-gray-300 leading-5 rounded-md hover:text-gray-500 focus:outline-none focus:ring ring-gray-300 focus:border-blue-300 active:bg-gray-100 active:text-gray-700 transition ease-in-out duration-150">
+                    Next &raquo;
+                </a>
+                    </div>
+
+        <div class="hidden sm:flex-1 sm:flex sm:items-center sm:justify-between">
+            <div>
+                <p class="text-sm text-gray-700 leading-5">
+                    Showing
+                                            <span class="font-medium">1</span>
+                        to
+                        <span class="font-medium">10</span>
+                                        of
+                    <span class="font-medium">11</span>
+                    results
+                </p>
+            </div>
+
+            <div>
+                <span class="relative z-0 inline-flex shadow-sm rounded-md">
+                    
+                                            <span aria-disabled="true" aria-label="&amp;laquo; Previous">
+                            <span class="relative inline-flex items-center px-2 py-2 text-sm font-medium text-gray-500 bg-white border border-gray-300 cursor-default rounded-l-md leading-5" aria-hidden="true">
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd" />
+                                </svg>
+                            </span>
+                        </span>
+                    
+                    
+                                            
+                        
+                        
+                                                                                                                        <span aria-current="page">
+                                        <span class="relative inline-flex items-center px-4 py-2 -ml-px text-sm font-medium text-gray-500 bg-white border border-gray-300 cursor-default leading-5">1</span>
+                                    </span>
+                                                                                                                                <a href="http://localhost:8080/api/v1/bicycles?page=2" class="relative inline-flex items-center px-4 py-2 -ml-px text-sm font-medium text-gray-700 bg-white border border-gray-300 leading-5 hover:text-gray-500 focus:z-10 focus:outline-none focus:ring ring-gray-300 focus:border-blue-300 active:bg-gray-100 active:text-gray-700 transition ease-in-out duration-150" aria-label="Go to page 2">
+                                        2
+                                    </a>
+                                                                                                        
+                    
+                                            <a href="http://localhost:8080/api/v1/bicycles?page=2" rel="next" class="relative inline-flex items-center px-2 py-2 -ml-px text-sm font-medium text-gray-500 bg-white border border-gray-300 rounded-r-md leading-5 hover:text-gray-400 focus:z-10 focus:outline-none focus:ring ring-gray-300 focus:border-blue-300 active:bg-gray-100 active:text-gray-500 transition ease-in-out duration-150" aria-label="Next &amp;raquo;">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                                    </span>
+            </div>
+        </div>
+    </nav>
+
+*3
+$3
+SET
+$20
+bicycle_bicycle_list
+$4419
+<nav role="navigation" aria-label="Pagination Navigation" class="flex items-center justify-between">
+        <div class="flex justify-between flex-1 sm:hidden">
+                            <span class="relative inline-flex items-center px-4 py-2 text-sm font-medium text-gray-500 bg-white border border-gray-300 cursor-default leading-5 rounded-md">
+                    &laquo; Previous
+                </span>
+            
+                            <a href="http://localhost:8080/api/v1/bicycles?page=2" class="relative inline-flex items-center px-4 py-2 ml-3 text-sm font-medium text-gray-700 bg-white border border-gray-300 leading-5 rounded-md hover:text-gray-500 focus:outline-none focus:ring ring-gray-300 focus:border-blue-300 active:bg-gray-100 active:text-gray-700 transition ease-in-out duration-150">
+                    Next &raquo;
+                </a>
+                    </div>
+
+        <div class="hidden sm:flex-1 sm:flex sm:items-center sm:justify-between">
+            <div>
+                <p class="text-sm text-gray-700 leading-5">
+                    Showing
+                                            <span class="font-medium">1</span>
+                        to
+                        <span class="font-medium">10</span>
+                                        of
+                    <span class="font-medium">11</span>
+                    results
+                </p>
+            </div>
+
+            <div>
+                <span class="relative z-0 inline-flex shadow-sm rounded-md">
+                    
+                                            <span aria-disabled="true" aria-label="&amp;laquo; Previous">
+                            <span class="relative inline-flex items-center px-2 py-2 text-sm font-medium text-gray-500 bg-white border border-gray-300 cursor-default rounded-l-md leading-5" aria-hidden="true">
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd" />
+                                </svg>
+                            </span>
+                        </span>
+                    
+                    
+                                            
+                        
+                        
+                                                                                                                        <span aria-current="page">
+                                        <span class="relative inline-flex items-center px-4 py-2 -ml-px text-sm font-medium text-gray-500 bg-white border border-gray-300 cursor-default leading-5">1</span>
+                                    </span>
+                                                                                                                                <a href="http://localhost:8080/api/v1/bicycles?page=2" class="relative inline-flex items-center px-4 py-2 -ml-px text-sm font-medium text-gray-700 bg-white border border-gray-300 leading-5 hover:text-gray-500 focus:z-10 focus:outline-none focus:ring ring-gray-300 focus:border-blue-300 active:bg-gray-100 active:text-gray-700 transition ease-in-out duration-150" aria-label="Go to page 2">
+                                        2
+                                    </a>
+                                                                                                        
+                    
+                                            <a href="http://localhost:8080/api/v1/bicycles?page=2" rel="next" class="relative inline-flex items-center px-2 py-2 -ml-px text-sm font-medium text-gray-500 bg-white border border-gray-300 rounded-r-md leading-5 hover:text-gray-400 focus:z-10 focus:outline-none focus:ring ring-gray-300 focus:border-blue-300 active:bg-gray-100 active:text-gray-500 transition ease-in-out duration-150" aria-label="Next &amp;raquo;">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                                    </span>
+            </div>
+        </div>
+    </nav>
+
+*3
+$3
+SET
+$20
+bicycle_bicycle_list
+$4419
+<nav role="navigation" aria-label="Pagination Navigation" class="flex items-center justify-between">
+        <div class="flex justify-between flex-1 sm:hidden">
+                            <span class="relative inline-flex items-center px-4 py-2 text-sm font-medium text-gray-500 bg-white border border-gray-300 cursor-default leading-5 rounded-md">
+                    &laquo; Previous
+                </span>
+            
+                            <a href="http://localhost:8080/api/v1/bicycles?page=2" class="relative inline-flex items-center px-4 py-2 ml-3 text-sm font-medium text-gray-700 bg-white border border-gray-300 leading-5 rounded-md hover:text-gray-500 focus:outline-none focus:ring ring-gray-300 focus:border-blue-300 active:bg-gray-100 active:text-gray-700 transition ease-in-out duration-150">
+                    Next &raquo;
+                </a>
+                    </div>
+
+        <div class="hidden sm:flex-1 sm:flex sm:items-center sm:justify-between">
+            <div>
+                <p class="text-sm text-gray-700 leading-5">
+                    Showing
+                                            <span class="font-medium">1</span>
+                        to
+                        <span class="font-medium">10</span>
+                                        of
+                    <span class="font-medium">11</span>
+                    results
+                </p>
+            </div>
+
+            <div>
+                <span class="relative z-0 inline-flex shadow-sm rounded-md">
+                    
+                                            <span aria-disabled="true" aria-label="&amp;laquo; Previous">
+                            <span class="relative inline-flex items-center px-2 py-2 text-sm font-medium text-gray-500 bg-white border border-gray-300 cursor-default rounded-l-md leading-5" aria-hidden="true">
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd" />
+                                </svg>
+                            </span>
+                        </span>
+                    
+                    
+                                            
+                        
+                        
+                                                                                                                        <span aria-current="page">
+                                        <span class="relative inline-flex items-center px-4 py-2 -ml-px text-sm font-medium text-gray-500 bg-white border border-gray-300 cursor-default leading-5">1</span>
+                                    </span>
+                                                                                                                                <a href="http://localhost:8080/api/v1/bicycles?page=2" class="relative inline-flex items-center px-4 py-2 -ml-px text-sm font-medium text-gray-700 bg-white border border-gray-300 leading-5 hover:text-gray-500 focus:z-10 focus:outline-none focus:ring ring-gray-300 focus:border-blue-300 active:bg-gray-100 active:text-gray-700 transition ease-in-out duration-150" aria-label="Go to page 2">
+                                        2
+                                    </a>
+                                                                                                        
+                    
+                                            <a href="http://localhost:8080/api/v1/bicycles?page=2" rel="next" class="relative inline-flex items-center px-2 py-2 -ml-px text-sm font-medium text-gray-500 bg-white border border-gray-300 rounded-r-md leading-5 hover:text-gray-400 focus:z-10 focus:outline-none focus:ring ring-gray-300 focus:border-blue-300 active:bg-gray-100 active:text-gray-500 transition ease-in-out duration-150" aria-label="Next &amp;raquo;">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                                    </span>
+            </div>
+        </div>
+    </nav>
+
+*3
+$3
+SET
+$20
+bicycle_bicycle_list
+$4419
+<nav role="navigation" aria-label="Pagination Navigation" class="flex items-center justify-between">
+        <div class="flex justify-between flex-1 sm:hidden">
+                            <span class="relative inline-flex items-center px-4 py-2 text-sm font-medium text-gray-500 bg-white border border-gray-300 cursor-default leading-5 rounded-md">
+                    &laquo; Previous
+                </span>
+            
+                            <a href="http://localhost:8080/api/v1/bicycles?page=2" class="relative inline-flex items-center px-4 py-2 ml-3 text-sm font-medium text-gray-700 bg-white border border-gray-300 leading-5 rounded-md hover:text-gray-500 focus:outline-none focus:ring ring-gray-300 focus:border-blue-300 active:bg-gray-100 active:text-gray-700 transition ease-in-out duration-150">
+                    Next &raquo;
+                </a>
+                    </div>
+
+        <div class="hidden sm:flex-1 sm:flex sm:items-center sm:justify-between">
+            <div>
+                <p class="text-sm text-gray-700 leading-5">
+                    Showing
+                                            <span class="font-medium">1</span>
+                        to
+                        <span class="font-medium">10</span>
+                                        of
+                    <span class="font-medium">11</span>
+                    results
+                </p>
+            </div>
+
+            <div>
+                <span class="relative z-0 inline-flex shadow-sm rounded-md">
+                    
+                                            <span aria-disabled="true" aria-label="&amp;laquo; Previous">
+                            <span class="relative inline-flex items-center px-2 py-2 text-sm font-medium text-gray-500 bg-white border border-gray-300 cursor-default rounded-l-md leading-5" aria-hidden="true">
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd" />
+                                </svg>
+                            </span>
+                        </span>
+                    
+                    
+                                            
+                        
+                        
+                                                                                                                        <span aria-current="page">
+                                        <span class="relative inline-flex items-center px-4 py-2 -ml-px text-sm font-medium text-gray-500 bg-white border border-gray-300 cursor-default leading-5">1</span>
+                                    </span>
+                                                                                                                                <a href="http://localhost:8080/api/v1/bicycles?page=2" class="relative inline-flex items-center px-4 py-2 -ml-px text-sm font-medium text-gray-700 bg-white border border-gray-300 leading-5 hover:text-gray-500 focus:z-10 focus:outline-none focus:ring ring-gray-300 focus:border-blue-300 active:bg-gray-100 active:text-gray-700 transition ease-in-out duration-150" aria-label="Go to page 2">
+                                        2
+                                    </a>
+                                                                                                        
+                    
+                                            <a href="http://localhost:8080/api/v1/bicycles?page=2" rel="next" class="relative inline-flex items-center px-2 py-2 -ml-px text-sm font-medium text-gray-500 bg-white border border-gray-300 rounded-r-md leading-5 hover:text-gray-400 focus:z-10 focus:outline-none focus:ring ring-gray-300 focus:border-blue-300 active:bg-gray-100 active:text-gray-500 transition ease-in-out duration-150" aria-label="Next &amp;raquo;">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                                    </span>
+            </div>
+        </div>
+    </nav>
+
+*3
+$3
+SET
+$20
+bicycle_bicycle_list
+$4419
+<nav role="navigation" aria-label="Pagination Navigation" class="flex items-center justify-between">
+        <div class="flex justify-between flex-1 sm:hidden">
+                            <span class="relative inline-flex items-center px-4 py-2 text-sm font-medium text-gray-500 bg-white border border-gray-300 cursor-default leading-5 rounded-md">
+                    &laquo; Previous
+                </span>
+            
+                            <a href="http://localhost:8080/api/v1/bicycles?page=2" class="relative inline-flex items-center px-4 py-2 ml-3 text-sm font-medium text-gray-700 bg-white border border-gray-300 leading-5 rounded-md hover:text-gray-500 focus:outline-none focus:ring ring-gray-300 focus:border-blue-300 active:bg-gray-100 active:text-gray-700 transition ease-in-out duration-150">
+                    Next &raquo;
+                </a>
+                    </div>
+
+        <div class="hidden sm:flex-1 sm:flex sm:items-center sm:justify-between">
+            <div>
+                <p class="text-sm text-gray-700 leading-5">
+                    Showing
+                                            <span class="font-medium">1</span>
+                        to
+                        <span class="font-medium">10</span>
+                                        of
+                    <span class="font-medium">11</span>
+                    results
+                </p>
+            </div>
+
+            <div>
+                <span class="relative z-0 inline-flex shadow-sm rounded-md">
+                    
+                                            <span aria-disabled="true" aria-label="&amp;laquo; Previous">
+                            <span class="relative inline-flex items-center px-2 py-2 text-sm font-medium text-gray-500 bg-white border border-gray-300 cursor-default rounded-l-md leading-5" aria-hidden="true">
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd" />
+                                </svg>
+                            </span>
+                        </span>
+                    
+                    
+                                            
+                        
+                        
+                                                                                                                        <span aria-current="page">
+                                        <span class="relative inline-flex items-center px-4 py-2 -ml-px text-sm font-medium text-gray-500 bg-white border border-gray-300 cursor-default leading-5">1</span>
+                                    </span>
+                                                                                                                                <a href="http://localhost:8080/api/v1/bicycles?page=2" class="relative inline-flex items-center px-4 py-2 -ml-px text-sm font-medium text-gray-700 bg-white border border-gray-300 leading-5 hover:text-gray-500 focus:z-10 focus:outline-none focus:ring ring-gray-300 focus:border-blue-300 active:bg-gray-100 active:text-gray-700 transition ease-in-out duration-150" aria-label="Go to page 2">
+                                        2
+                                    </a>
+                                                                                                        
+                    
+                                            <a href="http://localhost:8080/api/v1/bicycles?page=2" rel="next" class="relative inline-flex items-center px-2 py-2 -ml-px text-sm font-medium text-gray-500 bg-white border border-gray-300 rounded-r-md leading-5 hover:text-gray-400 focus:z-10 focus:outline-none focus:ring ring-gray-300 focus:border-blue-300 active:bg-gray-100 active:text-gray-500 transition ease-in-out duration-150" aria-label="Next &amp;raquo;">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                                    </span>
+            </div>
+        </div>
+    </nav>
+
+*3
+$3
+SET
+$20
+bicycle_bicycle_list
+$4419
+<nav role="navigation" aria-label="Pagination Navigation" class="flex items-center justify-between">
+        <div class="flex justify-between flex-1 sm:hidden">
+                            <span class="relative inline-flex items-center px-4 py-2 text-sm font-medium text-gray-500 bg-white border border-gray-300 cursor-default leading-5 rounded-md">
+                    &laquo; Previous
+                </span>
+            
+                            <a href="http://localhost:8080/api/v1/bicycles?page=2" class="relative inline-flex items-center px-4 py-2 ml-3 text-sm font-medium text-gray-700 bg-white border border-gray-300 leading-5 rounded-md hover:text-gray-500 focus:outline-none focus:ring ring-gray-300 focus:border-blue-300 active:bg-gray-100 active:text-gray-700 transition ease-in-out duration-150">
+                    Next &raquo;
+                </a>
+                    </div>
+
+        <div class="hidden sm:flex-1 sm:flex sm:items-center sm:justify-between">
+            <div>
+                <p class="text-sm text-gray-700 leading-5">
+                    Showing
+                                            <span class="font-medium">1</span>
+                        to
+                        <span class="font-medium">10</span>
+                                        of
+                    <span class="font-medium">11</span>
+                    results
+                </p>
+            </div>
+
+            <div>
+                <span class="relative z-0 inline-flex shadow-sm rounded-md">
+                    
+                                            <span aria-disabled="true" aria-label="&amp;laquo; Previous">
+                            <span class="relative inline-flex items-center px-2 py-2 text-sm font-medium text-gray-500 bg-white border border-gray-300 cursor-default rounded-l-md leading-5" aria-hidden="true">
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd" />
+                                </svg>
+                            </span>
+                        </span>
+                    
+                    
+                                            
+                        
+                        
+                                                                                                                        <span aria-current="page">
+                                        <span class="relative inline-flex items-center px-4 py-2 -ml-px text-sm font-medium text-gray-500 bg-white border border-gray-300 cursor-default leading-5">1</span>
+                                    </span>
+                                                                                                                                <a href="http://localhost:8080/api/v1/bicycles?page=2" class="relative inline-flex items-center px-4 py-2 -ml-px text-sm font-medium text-gray-700 bg-white border border-gray-300 leading-5 hover:text-gray-500 focus:z-10 focus:outline-none focus:ring ring-gray-300 focus:border-blue-300 active:bg-gray-100 active:text-gray-700 transition ease-in-out duration-150" aria-label="Go to page 2">
+                                        2
+                                    </a>
+                                                                                                        
+                    
+                                            <a href="http://localhost:8080/api/v1/bicycles?page=2" rel="next" class="relative inline-flex items-center px-2 py-2 -ml-px text-sm font-medium text-gray-500 bg-white border border-gray-300 rounded-r-md leading-5 hover:text-gray-400 focus:z-10 focus:outline-none focus:ring ring-gray-300 focus:border-blue-300 active:bg-gray-100 active:text-gray-500 transition ease-in-out duration-150" aria-label="Next &amp;raquo;">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                                    </span>
+            </div>
+        </div>
+    </nav>
+
+*3
+$3
+SET
+$20
+bicycle_bicycle_list
+$3294
+[{"id":1,"title":"Maiores.","inventory":8,"is_active":1,"created_at":"2023-12-23T12:35:49.000000Z","updated_at":"2023-12-23T12:35:49.000000Z","active_inventory":8},{"id":2,"title":"Eius quo.","inventory":10,"is_active":0,"created_at":"2023-12-23T12:35:49.000000Z","updated_at":"2023-12-23T12:35:49.000000Z","active_inventory":10},{"id":3,"title":"Placeat.","inventory":12,"is_active":0,"created_at":"2023-12-23T12:35:49.000000Z","updated_at":"2023-12-23T12:35:49.000000Z","active_inventory":12},{"id":4,"title":"Et et.","inventory":5,"is_active":1,"created_at":"2023-12-23T12:35:49.000000Z","updated_at":"2023-12-23T12:35:49.000000Z","active_inventory":5},{"id":5,"title":"Provident.","inventory":13,"is_active":0,"created_at":"2023-12-23T12:35:49.000000Z","updated_at":"2023-12-23T12:35:49.000000Z","active_inventory":13},{"id":6,"title":"Natus qui.","inventory":14,"is_active":1,"created_at":"2023-12-23T12:35:49.000000Z","updated_at":"2023-12-23T12:35:49.000000Z","active_inventory":14},{"id":7,"title":"Doloribus.","inventory":20,"is_active":1,"created_at":"2023-12-23T12:35:49.000000Z","updated_at":"2023-12-23T12:35:49.000000Z","active_inventory":20},{"id":8,"title":"Modi odio.","inventory":18,"is_active":0,"created_at":"2023-12-23T12:35:49.000000Z","updated_at":"2023-12-23T12:35:49.000000Z","active_inventory":18},{"id":9,"title":"Voluptas.","inventory":12,"is_active":0,"created_at":"2023-12-23T12:35:49.000000Z","updated_at":"2023-12-23T12:35:49.000000Z","active_inventory":12},{"id":10,"title":"Pariatur.","inventory":14,"is_active":1,"created_at":"2023-12-23T12:35:49.000000Z","updated_at":"2023-12-23T12:35:49.000000Z","active_inventory":14},{"id":11,"title":"Ratione.","inventory":6,"is_active":1,"created_at":"2023-12-23T12:35:49.000000Z","updated_at":"2023-12-23T12:35:49.000000Z","active_inventory":6},{"id":12,"title":"Voluptas.","inventory":10,"is_active":0,"created_at":"2023-12-23T12:35:49.000000Z","updated_at":"2023-12-23T12:35:49.000000Z","active_inventory":10},{"id":13,"title":"Eos ipsa.","inventory":7,"is_active":0,"created_at":"2023-12-23T12:35:49.000000Z","updated_at":"2023-12-23T12:35:49.000000Z","active_inventory":7},{"id":14,"title":"Est.","inventory":4,"is_active":1,"created_at":"2023-12-23T12:35:49.000000Z","updated_at":"2023-12-23T12:35:49.000000Z","active_inventory":4},{"id":15,"title":"In sint.","inventory":8,"is_active":1,"created_at":"2023-12-23T12:35:49.000000Z","updated_at":"2023-12-23T12:35:49.000000Z","active_inventory":8},{"id":16,"title":"Qui fugit.","inventory":11,"is_active":0,"created_at":"2023-12-23T12:35:49.000000Z","updated_at":"2023-12-23T12:35:49.000000Z","active_inventory":11},{"id":17,"title":"Sit.","inventory":6,"is_active":1,"created_at":"2023-12-23T12:35:49.000000Z","updated_at":"2023-12-23T12:35:49.000000Z","active_inventory":6},{"id":18,"title":"Magnam.","inventory":15,"is_active":0,"created_at":"2023-12-23T12:35:49.000000Z","updated_at":"2023-12-23T12:35:49.000000Z","active_inventory":15},{"id":19,"title":"Est.","inventory":13,"is_active":1,"created_at":"2023-12-23T12:35:49.000000Z","updated_at":"2023-12-23T12:35:49.000000Z","active_inventory":13},{"id":20,"title":"Iusto.","inventory":8,"is_active":1,"created_at":"2023-12-23T12:35:49.000000Z","updated_at":"2023-12-23T12:35:49.000000Z","active_inventory":8}]
+*3
+$3
+SET
+$20
+bicycle_bicycle_list
+$3294
+[{"id":1,"title":"Maiores.","inventory":8,"is_active":1,"created_at":"2023-12-23T12:35:49.000000Z","updated_at":"2023-12-23T12:35:49.000000Z","active_inventory":8},{"id":2,"title":"Eius quo.","inventory":10,"is_active":0,"created_at":"2023-12-23T12:35:49.000000Z","updated_at":"2023-12-23T12:35:49.000000Z","active_inventory":10},{"id":3,"title":"Placeat.","inventory":12,"is_active":0,"created_at":"2023-12-23T12:35:49.000000Z","updated_at":"2023-12-23T12:35:49.000000Z","active_inventory":12},{"id":4,"title":"Et et.","inventory":5,"is_active":1,"created_at":"2023-12-23T12:35:49.000000Z","updated_at":"2023-12-23T12:35:49.000000Z","active_inventory":5},{"id":5,"title":"Provident.","inventory":13,"is_active":0,"created_at":"2023-12-23T12:35:49.000000Z","updated_at":"2023-12-23T12:35:49.000000Z","active_inventory":13},{"id":6,"title":"Natus qui.","inventory":14,"is_active":1,"created_at":"2023-12-23T12:35:49.000000Z","updated_at":"2023-12-23T12:35:49.000000Z","active_inventory":14},{"id":7,"title":"Doloribus.","inventory":20,"is_active":1,"created_at":"2023-12-23T12:35:49.000000Z","updated_at":"2023-12-23T12:35:49.000000Z","active_inventory":20},{"id":8,"title":"Modi odio.","inventory":18,"is_active":0,"created_at":"2023-12-23T12:35:49.000000Z","updated_at":"2023-12-23T12:35:49.000000Z","active_inventory":18},{"id":9,"title":"Voluptas.","inventory":12,"is_active":0,"created_at":"2023-12-23T12:35:49.000000Z","updated_at":"2023-12-23T12:35:49.000000Z","active_inventory":12},{"id":10,"title":"Pariatur.","inventory":14,"is_active":1,"created_at":"2023-12-23T12:35:49.000000Z","updated_at":"2023-12-23T12:35:49.000000Z","active_inventory":14},{"id":11,"title":"Ratione.","inventory":6,"is_active":1,"created_at":"2023-12-23T12:35:49.000000Z","updated_at":"2023-12-23T12:35:49.000000Z","active_inventory":6},{"id":12,"title":"Voluptas.","inventory":10,"is_active":0,"created_at":"2023-12-23T12:35:49.000000Z","updated_at":"2023-12-23T12:35:49.000000Z","active_inventory":10},{"id":13,"title":"Eos ipsa.","inventory":7,"is_active":0,"created_at":"2023-12-23T12:35:49.000000Z","updated_at":"2023-12-23T12:35:49.000000Z","active_inventory":7},{"id":14,"title":"Est.","inventory":4,"is_active":1,"created_at":"2023-12-23T12:35:49.000000Z","updated_at":"2023-12-23T12:35:49.000000Z","active_inventory":4},{"id":15,"title":"In sint.","inventory":8,"is_active":1,"created_at":"2023-12-23T12:35:49.000000Z","updated_at":"2023-12-23T12:35:49.000000Z","active_inventory":8},{"id":16,"title":"Qui fugit.","inventory":11,"is_active":0,"created_at":"2023-12-23T12:35:49.000000Z","updated_at":"2023-12-23T12:35:49.000000Z","active_inventory":11},{"id":17,"title":"Sit.","inventory":6,"is_active":1,"created_at":"2023-12-23T12:35:49.000000Z","updated_at":"2023-12-23T12:35:49.000000Z","active_inventory":6},{"id":18,"title":"Magnam.","inventory":15,"is_active":0,"created_at":"2023-12-23T12:35:49.000000Z","updated_at":"2023-12-23T12:35:49.000000Z","active_inventory":15},{"id":19,"title":"Est.","inventory":13,"is_active":1,"created_at":"2023-12-23T12:35:49.000000Z","updated_at":"2023-12-23T12:35:49.000000Z","active_inventory":13},{"id":20,"title":"Iusto.","inventory":8,"is_active":1,"created_at":"2023-12-23T12:35:49.000000Z","updated_at":"2023-12-23T12:35:49.000000Z","active_inventory":8}]
+*2
+$6
+SELECT
+$1
+0
+*3
+$3
+SET
+$20
+bicycle_bicycle_list
+$3289
+[{"id":1,"title":"Ad et non.","inventory":13,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":13},{"id":2,"title":"Amet amet.","inventory":9,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":9},{"id":3,"title":"At quidem.","inventory":15,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":15},{"id":4,"title":"Nisi.","inventory":2,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":5,"title":"Ipsam sed.","inventory":14,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":14},{"id":6,"title":"Eos dolor.","inventory":17,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":17},{"id":7,"title":"Quis.","inventory":1,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":1},{"id":8,"title":"Sed.","inventory":17,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":17},{"id":9,"title":"Rerum.","inventory":20,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":20},{"id":10,"title":"Ut ullam.","inventory":6,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":6},{"id":11,"title":"Quo.","inventory":18,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":18},{"id":12,"title":"Corporis.","inventory":7,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":7},{"id":13,"title":"Aut cum.","inventory":2,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":14,"title":"Harum et.","inventory":13,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":13},{"id":15,"title":"Cumque ut.","inventory":2,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":16,"title":"Non.","inventory":15,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":15},{"id":17,"title":"Dolorem.","inventory":14,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":14},{"id":18,"title":"Maxime et.","inventory":10,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":10},{"id":19,"title":"Eum.","inventory":10,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":10},{"id":20,"title":"Minus.","inventory":17,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":16}]
+*3
+$3
+SET
+$20
+bicycle_bicycle_list
+$3289
+[{"id":1,"title":"Ad et non.","inventory":13,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":13},{"id":2,"title":"Amet amet.","inventory":9,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":9},{"id":3,"title":"At quidem.","inventory":15,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":15},{"id":4,"title":"Nisi.","inventory":2,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":5,"title":"Ipsam sed.","inventory":14,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":14},{"id":6,"title":"Eos dolor.","inventory":17,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":17},{"id":7,"title":"Quis.","inventory":1,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":1},{"id":8,"title":"Sed.","inventory":17,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":17},{"id":9,"title":"Rerum.","inventory":20,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":20},{"id":10,"title":"Ut ullam.","inventory":6,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":6},{"id":11,"title":"Quo.","inventory":18,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":18},{"id":12,"title":"Corporis.","inventory":7,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":7},{"id":13,"title":"Aut cum.","inventory":2,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":14,"title":"Harum et.","inventory":13,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":13},{"id":15,"title":"Cumque ut.","inventory":2,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":16,"title":"Non.","inventory":15,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":15},{"id":17,"title":"Dolorem.","inventory":14,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":14},{"id":18,"title":"Maxime et.","inventory":10,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":10},{"id":19,"title":"Eum.","inventory":10,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":10},{"id":20,"title":"Minus.","inventory":17,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":16}]
+*3
+$3
+SET
+$20
+bicycle_bicycle_list
+$3289
+[{"id":1,"title":"Ad et non.","inventory":13,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":13},{"id":2,"title":"Amet amet.","inventory":9,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":9},{"id":3,"title":"At quidem.","inventory":15,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":15},{"id":4,"title":"Nisi.","inventory":2,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":5,"title":"Ipsam sed.","inventory":14,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":14},{"id":6,"title":"Eos dolor.","inventory":17,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":17},{"id":7,"title":"Quis.","inventory":1,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":1},{"id":8,"title":"Sed.","inventory":17,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":17},{"id":9,"title":"Rerum.","inventory":20,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":20},{"id":10,"title":"Ut ullam.","inventory":6,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":6},{"id":11,"title":"Quo.","inventory":18,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":18},{"id":12,"title":"Corporis.","inventory":7,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":7},{"id":13,"title":"Aut cum.","inventory":2,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":14,"title":"Harum et.","inventory":13,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":13},{"id":15,"title":"Cumque ut.","inventory":2,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":16,"title":"Non.","inventory":15,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":15},{"id":17,"title":"Dolorem.","inventory":14,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":14},{"id":18,"title":"Maxime et.","inventory":10,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":10},{"id":19,"title":"Eum.","inventory":10,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":10},{"id":20,"title":"Minus.","inventory":17,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":16}]
+*3
+$3
+SET
+$20
+bicycle_bicycle_list
+$3289
+[{"id":1,"title":"Ad et non.","inventory":13,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":13},{"id":2,"title":"Amet amet.","inventory":9,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":9},{"id":3,"title":"At quidem.","inventory":15,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":15},{"id":4,"title":"Nisi.","inventory":2,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":5,"title":"Ipsam sed.","inventory":14,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":14},{"id":6,"title":"Eos dolor.","inventory":17,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":17},{"id":7,"title":"Quis.","inventory":1,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":1},{"id":8,"title":"Sed.","inventory":17,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":17},{"id":9,"title":"Rerum.","inventory":20,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":20},{"id":10,"title":"Ut ullam.","inventory":6,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":6},{"id":11,"title":"Quo.","inventory":18,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":18},{"id":12,"title":"Corporis.","inventory":7,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":7},{"id":13,"title":"Aut cum.","inventory":2,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":14,"title":"Harum et.","inventory":13,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":13},{"id":15,"title":"Cumque ut.","inventory":2,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":16,"title":"Non.","inventory":15,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":15},{"id":17,"title":"Dolorem.","inventory":14,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":14},{"id":18,"title":"Maxime et.","inventory":10,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":10},{"id":19,"title":"Eum.","inventory":10,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":10},{"id":20,"title":"Minus.","inventory":17,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":16}]
+*3
+$3
+SET
+$20
+bicycle_bicycle_list
+$3289
+[{"id":1,"title":"Ad et non.","inventory":13,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":13},{"id":2,"title":"Amet amet.","inventory":9,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":9},{"id":3,"title":"At quidem.","inventory":15,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":15},{"id":4,"title":"Nisi.","inventory":2,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":5,"title":"Ipsam sed.","inventory":14,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":14},{"id":6,"title":"Eos dolor.","inventory":17,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":17},{"id":7,"title":"Quis.","inventory":1,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":1},{"id":8,"title":"Sed.","inventory":17,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":17},{"id":9,"title":"Rerum.","inventory":20,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":20},{"id":10,"title":"Ut ullam.","inventory":6,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":6},{"id":11,"title":"Quo.","inventory":18,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":18},{"id":12,"title":"Corporis.","inventory":7,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":7},{"id":13,"title":"Aut cum.","inventory":2,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":14,"title":"Harum et.","inventory":13,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":13},{"id":15,"title":"Cumque ut.","inventory":2,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":16,"title":"Non.","inventory":15,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":15},{"id":17,"title":"Dolorem.","inventory":14,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":14},{"id":18,"title":"Maxime et.","inventory":10,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":10},{"id":19,"title":"Eum.","inventory":10,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":10},{"id":20,"title":"Minus.","inventory":17,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":16}]
+*3
+$3
+SET
+$20
+bicycle_bicycle_list
+$3289
+[{"id":1,"title":"Ad et non.","inventory":13,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":13},{"id":2,"title":"Amet amet.","inventory":9,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":9},{"id":3,"title":"At quidem.","inventory":15,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":15},{"id":4,"title":"Nisi.","inventory":2,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":5,"title":"Ipsam sed.","inventory":14,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":14},{"id":6,"title":"Eos dolor.","inventory":17,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":17},{"id":7,"title":"Quis.","inventory":1,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":1},{"id":8,"title":"Sed.","inventory":17,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":17},{"id":9,"title":"Rerum.","inventory":20,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":20},{"id":10,"title":"Ut ullam.","inventory":6,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":6},{"id":11,"title":"Quo.","inventory":18,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":18},{"id":12,"title":"Corporis.","inventory":7,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":7},{"id":13,"title":"Aut cum.","inventory":2,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":14,"title":"Harum et.","inventory":13,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":13},{"id":15,"title":"Cumque ut.","inventory":2,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":16,"title":"Non.","inventory":15,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":15},{"id":17,"title":"Dolorem.","inventory":14,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":14},{"id":18,"title":"Maxime et.","inventory":10,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":10},{"id":19,"title":"Eum.","inventory":10,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":10},{"id":20,"title":"Minus.","inventory":17,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":16}]
+*3
+$3
+SET
+$20
+bicycle_bicycle_list
+$3289
+[{"id":1,"title":"Ad et non.","inventory":13,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":13},{"id":2,"title":"Amet amet.","inventory":9,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":9},{"id":3,"title":"At quidem.","inventory":15,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":15},{"id":4,"title":"Nisi.","inventory":2,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":5,"title":"Ipsam sed.","inventory":14,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":14},{"id":6,"title":"Eos dolor.","inventory":17,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":17},{"id":7,"title":"Quis.","inventory":1,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":1},{"id":8,"title":"Sed.","inventory":17,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":17},{"id":9,"title":"Rerum.","inventory":20,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":20},{"id":10,"title":"Ut ullam.","inventory":6,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":6},{"id":11,"title":"Quo.","inventory":18,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":18},{"id":12,"title":"Corporis.","inventory":7,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":7},{"id":13,"title":"Aut cum.","inventory":2,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":14,"title":"Harum et.","inventory":13,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":13},{"id":15,"title":"Cumque ut.","inventory":2,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":16,"title":"Non.","inventory":15,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":15},{"id":17,"title":"Dolorem.","inventory":14,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":14},{"id":18,"title":"Maxime et.","inventory":10,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":10},{"id":19,"title":"Eum.","inventory":10,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":10},{"id":20,"title":"Minus.","inventory":17,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":16}]
+*3
+$3
+SET
+$20
+bicycle_bicycle_list
+$3289
+[{"id":1,"title":"Ad et non.","inventory":13,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":13},{"id":2,"title":"Amet amet.","inventory":9,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":9},{"id":3,"title":"At quidem.","inventory":15,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":15},{"id":4,"title":"Nisi.","inventory":2,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":5,"title":"Ipsam sed.","inventory":14,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":14},{"id":6,"title":"Eos dolor.","inventory":17,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":17},{"id":7,"title":"Quis.","inventory":1,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":1},{"id":8,"title":"Sed.","inventory":17,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":17},{"id":9,"title":"Rerum.","inventory":20,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":20},{"id":10,"title":"Ut ullam.","inventory":6,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":6},{"id":11,"title":"Quo.","inventory":18,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":18},{"id":12,"title":"Corporis.","inventory":7,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":7},{"id":13,"title":"Aut cum.","inventory":2,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":14,"title":"Harum et.","inventory":13,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":13},{"id":15,"title":"Cumque ut.","inventory":2,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":16,"title":"Non.","inventory":15,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":15},{"id":17,"title":"Dolorem.","inventory":14,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":14},{"id":18,"title":"Maxime et.","inventory":10,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":10},{"id":19,"title":"Eum.","inventory":10,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":10},{"id":20,"title":"Minus.","inventory":17,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":16}]
+*3
+$3
+SET
+$20
+bicycle_bicycle_list
+$3289
+[{"id":1,"title":"Ad et non.","inventory":13,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":13},{"id":2,"title":"Amet amet.","inventory":9,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":9},{"id":3,"title":"At quidem.","inventory":15,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":15},{"id":4,"title":"Nisi.","inventory":2,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":5,"title":"Ipsam sed.","inventory":14,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":14},{"id":6,"title":"Eos dolor.","inventory":17,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":17},{"id":7,"title":"Quis.","inventory":1,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":1},{"id":8,"title":"Sed.","inventory":17,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":17},{"id":9,"title":"Rerum.","inventory":20,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":20},{"id":10,"title":"Ut ullam.","inventory":6,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":6},{"id":11,"title":"Quo.","inventory":18,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":18},{"id":12,"title":"Corporis.","inventory":7,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":7},{"id":13,"title":"Aut cum.","inventory":2,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":14,"title":"Harum et.","inventory":13,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":13},{"id":15,"title":"Cumque ut.","inventory":2,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":16,"title":"Non.","inventory":15,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":15},{"id":17,"title":"Dolorem.","inventory":14,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":14},{"id":18,"title":"Maxime et.","inventory":10,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":10},{"id":19,"title":"Eum.","inventory":10,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":10},{"id":20,"title":"Minus.","inventory":17,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":16}]
+*3
+$3
+SET
+$20
+bicycle_bicycle_list
+$3289
+[{"id":1,"title":"Ad et non.","inventory":13,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":13},{"id":2,"title":"Amet amet.","inventory":9,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":9},{"id":3,"title":"At quidem.","inventory":15,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":15},{"id":4,"title":"Nisi.","inventory":2,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":5,"title":"Ipsam sed.","inventory":14,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":14},{"id":6,"title":"Eos dolor.","inventory":17,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":17},{"id":7,"title":"Quis.","inventory":1,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":1},{"id":8,"title":"Sed.","inventory":17,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":17},{"id":9,"title":"Rerum.","inventory":20,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":20},{"id":10,"title":"Ut ullam.","inventory":6,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":6},{"id":11,"title":"Quo.","inventory":18,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":18},{"id":12,"title":"Corporis.","inventory":7,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":7},{"id":13,"title":"Aut cum.","inventory":2,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":14,"title":"Harum et.","inventory":13,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":13},{"id":15,"title":"Cumque ut.","inventory":2,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":16,"title":"Non.","inventory":15,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":15},{"id":17,"title":"Dolorem.","inventory":14,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":14},{"id":18,"title":"Maxime et.","inventory":10,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":10},{"id":19,"title":"Eum.","inventory":10,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":10},{"id":20,"title":"Minus.","inventory":17,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":16}]
+*3
+$3
+SET
+$20
+bicycle_bicycle_list
+$3289
+[{"id":1,"title":"Ad et non.","inventory":13,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":13},{"id":2,"title":"Amet amet.","inventory":9,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":9},{"id":3,"title":"At quidem.","inventory":15,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":15},{"id":4,"title":"Nisi.","inventory":2,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":5,"title":"Ipsam sed.","inventory":14,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":14},{"id":6,"title":"Eos dolor.","inventory":17,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":17},{"id":7,"title":"Quis.","inventory":1,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":1},{"id":8,"title":"Sed.","inventory":17,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":17},{"id":9,"title":"Rerum.","inventory":20,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":20},{"id":10,"title":"Ut ullam.","inventory":6,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":6},{"id":11,"title":"Quo.","inventory":18,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":18},{"id":12,"title":"Corporis.","inventory":7,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":7},{"id":13,"title":"Aut cum.","inventory":2,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":14,"title":"Harum et.","inventory":13,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":13},{"id":15,"title":"Cumque ut.","inventory":2,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":16,"title":"Non.","inventory":15,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":15},{"id":17,"title":"Dolorem.","inventory":14,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":14},{"id":18,"title":"Maxime et.","inventory":10,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":10},{"id":19,"title":"Eum.","inventory":10,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":10},{"id":20,"title":"Minus.","inventory":17,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":16}]
+*3
+$3
+SET
+$20
+bicycle_bicycle_list
+$3289
+[{"id":1,"title":"Ad et non.","inventory":13,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":13},{"id":2,"title":"Amet amet.","inventory":9,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":9},{"id":3,"title":"At quidem.","inventory":15,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":15},{"id":4,"title":"Nisi.","inventory":2,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":5,"title":"Ipsam sed.","inventory":14,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":14},{"id":6,"title":"Eos dolor.","inventory":17,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":17},{"id":7,"title":"Quis.","inventory":1,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":1},{"id":8,"title":"Sed.","inventory":17,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":17},{"id":9,"title":"Rerum.","inventory":20,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":20},{"id":10,"title":"Ut ullam.","inventory":6,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":6},{"id":11,"title":"Quo.","inventory":18,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":18},{"id":12,"title":"Corporis.","inventory":7,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":7},{"id":13,"title":"Aut cum.","inventory":2,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":14,"title":"Harum et.","inventory":13,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":13},{"id":15,"title":"Cumque ut.","inventory":2,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":16,"title":"Non.","inventory":15,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":15},{"id":17,"title":"Dolorem.","inventory":14,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":14},{"id":18,"title":"Maxime et.","inventory":10,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":10},{"id":19,"title":"Eum.","inventory":10,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":10},{"id":20,"title":"Minus.","inventory":17,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":16}]
+*3
+$3
+SET
+$20
+bicycle_bicycle_list
+$3289
+[{"id":1,"title":"Ad et non.","inventory":13,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":13},{"id":2,"title":"Amet amet.","inventory":9,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":9},{"id":3,"title":"At quidem.","inventory":15,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":15},{"id":4,"title":"Nisi.","inventory":2,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":5,"title":"Ipsam sed.","inventory":14,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":14},{"id":6,"title":"Eos dolor.","inventory":17,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":17},{"id":7,"title":"Quis.","inventory":1,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":1},{"id":8,"title":"Sed.","inventory":17,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":17},{"id":9,"title":"Rerum.","inventory":20,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":20},{"id":10,"title":"Ut ullam.","inventory":6,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":6},{"id":11,"title":"Quo.","inventory":18,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":18},{"id":12,"title":"Corporis.","inventory":7,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":7},{"id":13,"title":"Aut cum.","inventory":2,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":14,"title":"Harum et.","inventory":13,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":13},{"id":15,"title":"Cumque ut.","inventory":2,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":16,"title":"Non.","inventory":15,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":15},{"id":17,"title":"Dolorem.","inventory":14,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":14},{"id":18,"title":"Maxime et.","inventory":10,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":10},{"id":19,"title":"Eum.","inventory":10,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":10},{"id":20,"title":"Minus.","inventory":17,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":16}]
+*3
+$3
+SET
+$20
+bicycle_bicycle_list
+$3289
+[{"id":1,"title":"Ad et non.","inventory":13,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":13},{"id":2,"title":"Amet amet.","inventory":9,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":9},{"id":3,"title":"At quidem.","inventory":15,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":15},{"id":4,"title":"Nisi.","inventory":2,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":5,"title":"Ipsam sed.","inventory":14,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":14},{"id":6,"title":"Eos dolor.","inventory":17,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":17},{"id":7,"title":"Quis.","inventory":1,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":1},{"id":8,"title":"Sed.","inventory":17,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":17},{"id":9,"title":"Rerum.","inventory":20,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":20},{"id":10,"title":"Ut ullam.","inventory":6,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":6},{"id":11,"title":"Quo.","inventory":18,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":18},{"id":12,"title":"Corporis.","inventory":7,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":7},{"id":13,"title":"Aut cum.","inventory":2,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":14,"title":"Harum et.","inventory":13,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":13},{"id":15,"title":"Cumque ut.","inventory":2,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":16,"title":"Non.","inventory":15,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":15},{"id":17,"title":"Dolorem.","inventory":14,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":14},{"id":18,"title":"Maxime et.","inventory":10,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":10},{"id":19,"title":"Eum.","inventory":10,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":10},{"id":20,"title":"Minus.","inventory":17,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":16}]
+*3
+$3
+SET
+$20
+bicycle_bicycle_list
+$3289
+[{"id":1,"title":"Ad et non.","inventory":13,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":13},{"id":2,"title":"Amet amet.","inventory":9,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":9},{"id":3,"title":"At quidem.","inventory":15,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":15},{"id":4,"title":"Nisi.","inventory":2,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":5,"title":"Ipsam sed.","inventory":14,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":14},{"id":6,"title":"Eos dolor.","inventory":17,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":17},{"id":7,"title":"Quis.","inventory":1,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":1},{"id":8,"title":"Sed.","inventory":17,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":17},{"id":9,"title":"Rerum.","inventory":20,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":20},{"id":10,"title":"Ut ullam.","inventory":6,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":6},{"id":11,"title":"Quo.","inventory":18,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":18},{"id":12,"title":"Corporis.","inventory":7,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":7},{"id":13,"title":"Aut cum.","inventory":2,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":14,"title":"Harum et.","inventory":13,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":13},{"id":15,"title":"Cumque ut.","inventory":2,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":16,"title":"Non.","inventory":15,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":15},{"id":17,"title":"Dolorem.","inventory":14,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":14},{"id":18,"title":"Maxime et.","inventory":10,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":10},{"id":19,"title":"Eum.","inventory":10,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":10},{"id":20,"title":"Minus.","inventory":17,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":16}]
+*3
+$3
+SET
+$20
+bicycle_bicycle_list
+$3289
+[{"id":1,"title":"Ad et non.","inventory":13,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":13},{"id":2,"title":"Amet amet.","inventory":9,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":9},{"id":3,"title":"At quidem.","inventory":15,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":15},{"id":4,"title":"Nisi.","inventory":2,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":5,"title":"Ipsam sed.","inventory":14,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":14},{"id":6,"title":"Eos dolor.","inventory":17,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":17},{"id":7,"title":"Quis.","inventory":1,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":1},{"id":8,"title":"Sed.","inventory":17,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":17},{"id":9,"title":"Rerum.","inventory":20,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":20},{"id":10,"title":"Ut ullam.","inventory":6,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":6},{"id":11,"title":"Quo.","inventory":18,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":18},{"id":12,"title":"Corporis.","inventory":7,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":7},{"id":13,"title":"Aut cum.","inventory":2,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":14,"title":"Harum et.","inventory":13,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":13},{"id":15,"title":"Cumque ut.","inventory":2,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":16,"title":"Non.","inventory":15,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":15},{"id":17,"title":"Dolorem.","inventory":14,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":14},{"id":18,"title":"Maxime et.","inventory":10,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":10},{"id":19,"title":"Eum.","inventory":10,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":10},{"id":20,"title":"Minus.","inventory":17,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":16}]
+*3
+$3
+SET
+$20
+bicycle_bicycle_list
+$3289
+[{"id":1,"title":"Ad et non.","inventory":13,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":13},{"id":2,"title":"Amet amet.","inventory":9,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":9},{"id":3,"title":"At quidem.","inventory":15,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":15},{"id":4,"title":"Nisi.","inventory":2,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":5,"title":"Ipsam sed.","inventory":14,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":14},{"id":6,"title":"Eos dolor.","inventory":17,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":17},{"id":7,"title":"Quis.","inventory":1,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":1},{"id":8,"title":"Sed.","inventory":17,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":17},{"id":9,"title":"Rerum.","inventory":20,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":20},{"id":10,"title":"Ut ullam.","inventory":6,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":6},{"id":11,"title":"Quo.","inventory":18,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":18},{"id":12,"title":"Corporis.","inventory":7,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":7},{"id":13,"title":"Aut cum.","inventory":2,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":14,"title":"Harum et.","inventory":13,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":13},{"id":15,"title":"Cumque ut.","inventory":2,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":16,"title":"Non.","inventory":15,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":15},{"id":17,"title":"Dolorem.","inventory":14,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":14},{"id":18,"title":"Maxime et.","inventory":10,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":10},{"id":19,"title":"Eum.","inventory":10,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":10},{"id":20,"title":"Minus.","inventory":17,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":16}]
+*3
+$3
+SET
+$20
+bicycle_bicycle_list
+$3289
+[{"id":1,"title":"Ad et non.","inventory":13,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":13},{"id":2,"title":"Amet amet.","inventory":9,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":9},{"id":3,"title":"At quidem.","inventory":15,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":15},{"id":4,"title":"Nisi.","inventory":2,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":5,"title":"Ipsam sed.","inventory":14,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":14},{"id":6,"title":"Eos dolor.","inventory":17,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":17},{"id":7,"title":"Quis.","inventory":1,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":1},{"id":8,"title":"Sed.","inventory":17,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":17},{"id":9,"title":"Rerum.","inventory":20,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":20},{"id":10,"title":"Ut ullam.","inventory":6,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":6},{"id":11,"title":"Quo.","inventory":18,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":18},{"id":12,"title":"Corporis.","inventory":7,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":7},{"id":13,"title":"Aut cum.","inventory":2,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":14,"title":"Harum et.","inventory":13,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":13},{"id":15,"title":"Cumque ut.","inventory":2,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":16,"title":"Non.","inventory":15,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":15},{"id":17,"title":"Dolorem.","inventory":14,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":14},{"id":18,"title":"Maxime et.","inventory":10,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":10},{"id":19,"title":"Eum.","inventory":10,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":10},{"id":20,"title":"Minus.","inventory":17,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":16}]
+*3
+$3
+SET
+$20
+bicycle_bicycle_list
+$3289
+[{"id":1,"title":"Ad et non.","inventory":13,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":13},{"id":2,"title":"Amet amet.","inventory":9,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":9},{"id":3,"title":"At quidem.","inventory":15,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":15},{"id":4,"title":"Nisi.","inventory":2,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":5,"title":"Ipsam sed.","inventory":14,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":14},{"id":6,"title":"Eos dolor.","inventory":17,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":17},{"id":7,"title":"Quis.","inventory":1,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":1},{"id":8,"title":"Sed.","inventory":17,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":17},{"id":9,"title":"Rerum.","inventory":20,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":20},{"id":10,"title":"Ut ullam.","inventory":6,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":6},{"id":11,"title":"Quo.","inventory":18,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":18},{"id":12,"title":"Corporis.","inventory":7,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":7},{"id":13,"title":"Aut cum.","inventory":2,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":14,"title":"Harum et.","inventory":13,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":13},{"id":15,"title":"Cumque ut.","inventory":2,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":16,"title":"Non.","inventory":15,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":15},{"id":17,"title":"Dolorem.","inventory":14,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":14},{"id":18,"title":"Maxime et.","inventory":10,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":10},{"id":19,"title":"Eum.","inventory":10,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":10},{"id":20,"title":"Minus.","inventory":17,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":16}]
+*3
+$3
+SET
+$20
+bicycle_bicycle_list
+$3289
+[{"id":1,"title":"Ad et non.","inventory":13,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":13},{"id":2,"title":"Amet amet.","inventory":9,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":9},{"id":3,"title":"At quidem.","inventory":15,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":15},{"id":4,"title":"Nisi.","inventory":2,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":5,"title":"Ipsam sed.","inventory":14,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":14},{"id":6,"title":"Eos dolor.","inventory":17,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":17},{"id":7,"title":"Quis.","inventory":1,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":1},{"id":8,"title":"Sed.","inventory":17,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":17},{"id":9,"title":"Rerum.","inventory":20,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":20},{"id":10,"title":"Ut ullam.","inventory":6,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":6},{"id":11,"title":"Quo.","inventory":18,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":18},{"id":12,"title":"Corporis.","inventory":7,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":7},{"id":13,"title":"Aut cum.","inventory":2,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":14,"title":"Harum et.","inventory":13,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":13},{"id":15,"title":"Cumque ut.","inventory":2,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":16,"title":"Non.","inventory":15,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":15},{"id":17,"title":"Dolorem.","inventory":14,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":14},{"id":18,"title":"Maxime et.","inventory":10,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":10},{"id":19,"title":"Eum.","inventory":10,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":10},{"id":20,"title":"Minus.","inventory":17,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":16}]
+*3
+$3
+SET
+$20
+bicycle_bicycle_list
+$3289
+[{"id":1,"title":"Ad et non.","inventory":13,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":13},{"id":2,"title":"Amet amet.","inventory":9,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":9},{"id":3,"title":"At quidem.","inventory":15,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":15},{"id":4,"title":"Nisi.","inventory":2,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":5,"title":"Ipsam sed.","inventory":14,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":14},{"id":6,"title":"Eos dolor.","inventory":17,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":17},{"id":7,"title":"Quis.","inventory":1,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":1},{"id":8,"title":"Sed.","inventory":17,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":17},{"id":9,"title":"Rerum.","inventory":20,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":20},{"id":10,"title":"Ut ullam.","inventory":6,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":6},{"id":11,"title":"Quo.","inventory":18,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":18},{"id":12,"title":"Corporis.","inventory":7,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":7},{"id":13,"title":"Aut cum.","inventory":2,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":14,"title":"Harum et.","inventory":13,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":13},{"id":15,"title":"Cumque ut.","inventory":2,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":16,"title":"Non.","inventory":15,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":15},{"id":17,"title":"Dolorem.","inventory":14,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":14},{"id":18,"title":"Maxime et.","inventory":10,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":10},{"id":19,"title":"Eum.","inventory":10,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":10},{"id":20,"title":"Minus.","inventory":17,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":16}]
+*3
+$3
+SET
+$20
+bicycle_bicycle_list
+$3289
+[{"id":1,"title":"Ad et non.","inventory":13,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":13},{"id":2,"title":"Amet amet.","inventory":9,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":9},{"id":3,"title":"At quidem.","inventory":15,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":15},{"id":4,"title":"Nisi.","inventory":2,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":5,"title":"Ipsam sed.","inventory":14,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":14},{"id":6,"title":"Eos dolor.","inventory":17,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":17},{"id":7,"title":"Quis.","inventory":1,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":1},{"id":8,"title":"Sed.","inventory":17,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":17},{"id":9,"title":"Rerum.","inventory":20,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":20},{"id":10,"title":"Ut ullam.","inventory":6,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":6},{"id":11,"title":"Quo.","inventory":18,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":18},{"id":12,"title":"Corporis.","inventory":7,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":7},{"id":13,"title":"Aut cum.","inventory":2,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":14,"title":"Harum et.","inventory":13,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":13},{"id":15,"title":"Cumque ut.","inventory":2,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":16,"title":"Non.","inventory":15,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":15},{"id":17,"title":"Dolorem.","inventory":14,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":14},{"id":18,"title":"Maxime et.","inventory":10,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":10},{"id":19,"title":"Eum.","inventory":10,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":10},{"id":20,"title":"Minus.","inventory":17,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":16}]
+*3
+$3
+SET
+$20
+bicycle_bicycle_list
+$3289
+[{"id":1,"title":"Ad et non.","inventory":13,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":13},{"id":2,"title":"Amet amet.","inventory":9,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":9},{"id":3,"title":"At quidem.","inventory":15,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":15},{"id":4,"title":"Nisi.","inventory":2,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":5,"title":"Ipsam sed.","inventory":14,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":14},{"id":6,"title":"Eos dolor.","inventory":17,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":17},{"id":7,"title":"Quis.","inventory":1,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":1},{"id":8,"title":"Sed.","inventory":17,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":17},{"id":9,"title":"Rerum.","inventory":20,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":20},{"id":10,"title":"Ut ullam.","inventory":6,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":6},{"id":11,"title":"Quo.","inventory":18,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":18},{"id":12,"title":"Corporis.","inventory":7,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":7},{"id":13,"title":"Aut cum.","inventory":2,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":14,"title":"Harum et.","inventory":13,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":13},{"id":15,"title":"Cumque ut.","inventory":2,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":16,"title":"Non.","inventory":15,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":15},{"id":17,"title":"Dolorem.","inventory":14,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":14},{"id":18,"title":"Maxime et.","inventory":10,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":10},{"id":19,"title":"Eum.","inventory":10,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":10},{"id":20,"title":"Minus.","inventory":17,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":16}]
+*3
+$3
+SET
+$20
+bicycle_bicycle_list
+$3289
+[{"id":1,"title":"Ad et non.","inventory":13,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":13},{"id":2,"title":"Amet amet.","inventory":9,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":9},{"id":3,"title":"At quidem.","inventory":15,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":15},{"id":4,"title":"Nisi.","inventory":2,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":5,"title":"Ipsam sed.","inventory":14,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":14},{"id":6,"title":"Eos dolor.","inventory":17,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":17},{"id":7,"title":"Quis.","inventory":1,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":1},{"id":8,"title":"Sed.","inventory":17,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":17},{"id":9,"title":"Rerum.","inventory":20,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":20},{"id":10,"title":"Ut ullam.","inventory":6,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":6},{"id":11,"title":"Quo.","inventory":18,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":18},{"id":12,"title":"Corporis.","inventory":7,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":7},{"id":13,"title":"Aut cum.","inventory":2,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":14,"title":"Harum et.","inventory":13,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":13},{"id":15,"title":"Cumque ut.","inventory":2,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":16,"title":"Non.","inventory":15,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":15},{"id":17,"title":"Dolorem.","inventory":14,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":14},{"id":18,"title":"Maxime et.","inventory":10,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":10},{"id":19,"title":"Eum.","inventory":10,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":10},{"id":20,"title":"Minus.","inventory":17,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":16}]
+*3
+$3
+SET
+$20
+bicycle_bicycle_list
+$3289
+[{"id":1,"title":"Ad et non.","inventory":13,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":13},{"id":2,"title":"Amet amet.","inventory":9,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":9},{"id":3,"title":"At quidem.","inventory":15,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":15},{"id":4,"title":"Nisi.","inventory":2,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":5,"title":"Ipsam sed.","inventory":14,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":14},{"id":6,"title":"Eos dolor.","inventory":17,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":17},{"id":7,"title":"Quis.","inventory":1,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":1},{"id":8,"title":"Sed.","inventory":17,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":17},{"id":9,"title":"Rerum.","inventory":20,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":20},{"id":10,"title":"Ut ullam.","inventory":6,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":6},{"id":11,"title":"Quo.","inventory":18,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":18},{"id":12,"title":"Corporis.","inventory":7,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":7},{"id":13,"title":"Aut cum.","inventory":2,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":14,"title":"Harum et.","inventory":13,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":13},{"id":15,"title":"Cumque ut.","inventory":2,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":16,"title":"Non.","inventory":15,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":15},{"id":17,"title":"Dolorem.","inventory":14,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":14},{"id":18,"title":"Maxime et.","inventory":10,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":10},{"id":19,"title":"Eum.","inventory":10,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":10},{"id":20,"title":"Minus.","inventory":17,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":16}]
+*3
+$3
+SET
+$20
+bicycle_bicycle_list
+$3289
+[{"id":1,"title":"Ad et non.","inventory":13,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":13},{"id":2,"title":"Amet amet.","inventory":9,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":9},{"id":3,"title":"At quidem.","inventory":15,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":15},{"id":4,"title":"Nisi.","inventory":2,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":5,"title":"Ipsam sed.","inventory":14,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":14},{"id":6,"title":"Eos dolor.","inventory":17,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":17},{"id":7,"title":"Quis.","inventory":1,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":1},{"id":8,"title":"Sed.","inventory":17,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":17},{"id":9,"title":"Rerum.","inventory":20,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":20},{"id":10,"title":"Ut ullam.","inventory":6,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":6},{"id":11,"title":"Quo.","inventory":18,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":18},{"id":12,"title":"Corporis.","inventory":7,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":7},{"id":13,"title":"Aut cum.","inventory":2,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":14,"title":"Harum et.","inventory":13,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":13},{"id":15,"title":"Cumque ut.","inventory":2,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":2},{"id":16,"title":"Non.","inventory":15,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":15},{"id":17,"title":"Dolorem.","inventory":14,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":14},{"id":18,"title":"Maxime et.","inventory":10,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":10},{"id":19,"title":"Eum.","inventory":10,"is_active":0,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":10},{"id":20,"title":"Minus.","inventory":17,"is_active":1,"created_at":"2023-12-25T07:05:19.000000Z","updated_at":"2023-12-25T07:05:19.000000Z","active_inventory":16}]

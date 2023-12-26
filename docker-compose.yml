@@ -51,6 +51,18 @@ services:
         networks:
             - app-network
 
+    #REDID Service
+    bicycle_redis:
+        image: redis:rc-alpine3.13
+        container_name: bicycle_redis
+        command: redis-server --appendonly yes --requirepass ""
+        volumes:
+            - ./data/redis:/data
+        ports:
+            - "6379:6379"
+        networks:
+            - app-network
+
 #Docker Networks
 networks:
     app-network:
