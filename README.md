@@ -22,7 +22,7 @@
 - Bicycle
 
 ### Running tests
-- sudo docker-compose exec app php artisan test
+- sudo docker-compose exec bicycle_app php artisan test
 
 ## Security Vulnerabilities
 If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.

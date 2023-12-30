@@ -7,7 +7,8 @@ use App\Http\Resources\V1\BicycleCollection;
 use App\Models\Bicycle;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Redis;
+Use Illuminate\Support\Facades\Redis;
+use Illuminate\Support\Facades;
 
 class BicycleController extends Controller
 {
@@ -17,17 +18,11 @@ class BicycleController extends Controller
      */
     public function index(Request $request): JsonResponse
     {
-        $bicycles = Bicycle::query()->latest()->active()
-            ->paginate($request->query('limit') ?? 10);
+       $bicycles = Facades\Cache::remember('bicycle_list',60, function () use($request){
+           return Bicycle::query()->latest()->active()->paginate($request->limit ?? 10);
+        });
+dd(Facades\Cache::get('bicycle_list'));
 
-       /* $bicycles = Redis::set('bicycle_list', Bicycle::all());
-
-        dd(
-            json_decode(
-                \Illuminate\Support\Facades\Redis::get('bicycle_list'),
-                true
-            )
-        );*/
 
         return (new BicycleCollection($bicycles))
             ->response()
